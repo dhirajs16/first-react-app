@@ -16,9 +16,9 @@ const Hero = () => {
                         loop
                     /> */}
                 </p>
-                <p className="text-gray-500 mt-4 font-bold">Monitor your data analytics to increase revenue for BTB, BTC</p>
+                <p className="text-gray-500 mt-4 font-bold flex text-center px-10 lg:px-0">Monitor your data analytics to increase revenue for BTB, BTC</p>
                 <p className="text-gray-500 font-bold">SASS platforms.</p>
-                <button className="text-black bg-[#00df9a] px-5 py-2 rounded-lg mt-3    ">Get Started</button>
+                <button className="text-black bg-[#00df9a] px-5 py-2 rounded-lg mt-3 transition ease-in hover:translate-y-2 hover:scale-110 hover:bg-white    ">Get Started</button>
             </div>
         </>
     );
