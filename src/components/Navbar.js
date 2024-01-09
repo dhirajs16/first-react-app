@@ -9,9 +9,6 @@ const Navbar = () => {
   return (
     <>
 
-      
-
-
       {/* Desktop view */}
       <nav className='text-white flex justify-between items-center h-[10vh] w-[90%] lg:w-[80%] m-auto'>
         <h1 className='text-[#00df9a] text-xl font-bold cursor-pointer'>React.</h1>
@@ -33,22 +30,21 @@ const Navbar = () => {
             :
             <>
               <IoMdClose size={25} />
-              <div className='lg:hidden fixed top-0 bg-[#000300] flex flex-col h-full w-[50%] sm:w-[30%] p-5 text-white left-0'>
+              <div className='lg:hidden fixed top-0 bg-[rgb(0,0,0,0.92)] flex flex-col h-full w-[50%] sm:w-[30%] p-5 text-white left-0 z-50'>
                 <h1 className='text-[#00df9a] text-xl font-bold h-16'>React.</h1>
 
-                <a className="pt-3 border-b border-gray-500" href="#home">Home</a>
-                <a className="pt-3 border-b border-gray-500" href="#company">Company</a>
-                <a className="pt-3 border-b border-gray-500" href="#resources">Resources</a>
-                <a className="pt-3 border-b border-gray-500" href="#about">About</a>
-                <a className="pt-3 border-b border-gray-500" href="#contacts">Contacts</a>
+                <a className="pt-3 border-b border-gray-500  transition ease-in hover:bg-[#00df9a]" href="#home">Home</a>
+                <a className="pt-3 border-b border-gray-500  transition ease-in hover:bg-[#00df9a]" href="#company">Company</a>
+                <a className="pt-3 border-b border-gray-500  transition ease-in hover:bg-[#00df9a]" href="#resources">Resources</a>
+                <a className="pt-3 border-b border-gray-500  transition ease-in hover:bg-[#00df9a]" href="#about">About</a>
+                <a className="pt-3 border-b border-gray-500  transition ease-in hover:bg-[#00df9a]" href="#contacts">Contacts</a>
               </div>
             </>
           }
         </button>
-
       </nav>
     </>
   )
 }
 
-export default Navbar
+export default Navbar;

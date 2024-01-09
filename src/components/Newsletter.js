@@ -4,7 +4,7 @@ const Newsletter = () => {
     return (
         <>
 
-            <div className="min-h-72 w-[78%] m-auto flex flex-col lg:grid grid-cols-3 bg-[#000300] text-white py-10 lg:py-0">
+            <div className="min-h-[50vh] w-[78%] m-auto flex flex-col lg:grid grid-cols-3 bg-[#000300] text-white py-10 lg:py-0">
                 <div className="col-span-2 lg:mt-32">
                     <p className="text-3xl font-extrabold">Want tips and tricks to optimize your flow?</p>
                     <p className="text-sm lg:text-md">Sign up to newsletter and stay up to date</p>

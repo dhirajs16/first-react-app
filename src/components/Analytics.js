@@ -3,7 +3,7 @@ import React from 'react'
 const Analytics = () => {
   return (
     <>
-        <div className="min-h-96 w-full px-12 lg:px-56 m-auto bg-slate-50 grid lg:grid-cols-3 gap-3">
+        <div className="min-h-[50vh] w-full px-12 lg:px-56 m-auto bg-slate-50 grid lg:grid-cols-3 gap-3">
             <div className='flex items-center lg:justify-center mt-5 lg:mt-0 col-span-1'>
               <img className="rounded-md" src="https://picsum.photos/250" alt="Analytics" />
             </div>
