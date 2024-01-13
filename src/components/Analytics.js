@@ -12,7 +12,7 @@ const Analytics = () => {
               <p className="text-2xl font-extrabold mb-2">Manage Data Analytics Centrally</p>
               <p className="text-gray-500 text-sm font-semibold text-balance">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid, culpa quis hic temporibus inventore maxime saepe, nemo dolores officia rem dignissimos autem aspernatur, nihil cumque perspiciatis consectetur sit tempora!</p>
               <div className="flex justify-start items-center">
-              <button className="flex bg-black text-[#00df9a] px-5 py-2 rounded-lg my-3">Get Started</button>
+              <button className="flex bg-black text-[#00df9a] px-5 py-2 rounded-lg my-3 transition ease-in hover:bg-[#00df9a] hover:text-black">Get Started</button>
               </div>
             </div>
         </div>

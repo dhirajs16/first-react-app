@@ -12,7 +12,7 @@ const Newsletter = () => {
                 <div className="col-span-1 lg:mt-32">
                     <div className="my-2 lg:mt-0">
                         <input className="block lg:inline w-52 px-2 py-1 lg:mr-2 rounded-md text-black" type="text" placeholder='Enter your email' />
-                        <button className="bg-[#00df9a] rounded-md py-1 px-2 mt-2 lg:mt-0">Notify me</button>
+                        <button className="bg-[#00df9a] rounded-md py-1 px-2 mt-2 lg:mt-0 transition ease-in hover:bg-white hover:text-black">Notify me</button>
                     </div>
                     <p className="text-xs inline lg:block">We care about the protection of your data. Read our </p>
                     <a className="text-[#00df9a] text-sm underline" href="https://www.google.com">Privacy Policy</a>

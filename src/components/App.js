@@ -6,6 +6,7 @@ import Hero from "./Hero";
 import Analytics from "./Analytics"
 import Newsletter from "./Newsletter";
 import Offers from "./Offers";
+import Footer from "./Footer";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
             <Analytics />
             <Newsletter />
             <Offers />
+            <Footer />
         </>
     );
 }
